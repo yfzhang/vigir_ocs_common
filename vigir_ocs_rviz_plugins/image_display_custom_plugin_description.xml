@@ -1,9 +1,0 @@
-<library path="libvigir_ocs_rviz_plugin_image_display_custom">
-  <class name="rviz/ImageDisplayCustom"
-         type="rviz::ImageDisplayCustom"
-         base_class_type="rviz::Display">
-    <description>
-      Customized image display plugin that renders the image directly into the main widget.
-    </description>
-  </class>
-</library>
