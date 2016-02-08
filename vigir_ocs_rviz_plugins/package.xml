@@ -15,13 +15,9 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>shape_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
-  <build_depend>vigir_ocs_msgs</build_depend>
-  <build_depend>vigir_perception_msgs</build_depend>
-  <build_depend>vigir_interactive_marker_server_custom</build_depend>
   <build_depend>pluginlib</build_depend>
   <build_depend>class_loader</build_depend>
   <build_depend>rviz</build_depend>
-  <build_depend>vigir_ocs_robot_state_manager</build_depend>
   <build_depend>cv_bridge</build_depend>
   
   <run_depend>roscpp</run_depend>
@@ -30,33 +26,16 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>shape_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
-  <run_depend>vigir_ocs_msgs</run_depend>
-  <run_depend>vigir_perception_msgs</run_depend>
-  <run_depend>vigir_interactive_marker_server_custom</run_depend>
   <run_depend>pluginlib</run_depend>
   <run_depend>class_loader</run_depend>
   <run_depend>rviz</run_depend>
-  <run_depend>vigir_ocs_robot_state_manager</run_depend>
   <run_depend>cv_bridge</run_depend>
 
   <export>
       <rviz plugin="${prefix}/camera_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/image_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/template_display_custom_plugin_description.xml"/>
       <rviz plugin="${prefix}/image_selection_tool_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/selection_3d_tool_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/selection_3d_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/bounding_object_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/mesh_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/path_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/octomap_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/grasp_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/robot_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/map_display_custom_plugin_description.xml"/>
       <rviz plugin="${prefix}/interaction_tool_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/ortho_view_controller_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/overlay_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/joint_marker_display_custom_plugin_description.xml"/>
-      <rviz plugin="${prefix}/camera_frustum_display_custom_plugin_description.xml"/>
+      <rviz plugin="${prefix}/map_display_custom_plugin_description.xml"/>
+      <rviz plugin="${prefix}/mesh_display_custom_plugin_description.xml"/>
   </export>
 </package>
